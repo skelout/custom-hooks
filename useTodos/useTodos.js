@@ -6,7 +6,7 @@
 // Y SE LO MANDE A ALGUNA PETICIÓN HTTP (POST, GET, ETC)
 
 import { useEffect, useReducer } from "react";
-import {todoReducer} from '../08-useReducer/todoReducer'
+import {todoReducer} from './todoReducer'
 const initialState = [];
 
 const init = () => {
